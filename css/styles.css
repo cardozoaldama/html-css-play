@@ -55,3 +55,8 @@ img {
     display: block;
     text-align: center;
 }
+
+ul, ol {
+    text-align: center;
+    text-shadow: 5px 6px 5px #c2c2c2;
+}
