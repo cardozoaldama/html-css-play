@@ -42,3 +42,15 @@ img {
     color: darkblue;
     cursor: crosshair;
 }
+
+#last-navigator {
+    border-top: 3px dashed #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#last-navigator + a + a {
+    display: block;
+    text-align: center;
+}
