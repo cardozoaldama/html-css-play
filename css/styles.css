@@ -18,3 +18,9 @@ img {
     margin-bottom: 10px;
     width: 450px;
 }
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
