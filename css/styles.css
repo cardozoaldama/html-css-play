@@ -3,3 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
+
+.container {
+    max-width: 600px;
+    min-width: 300px;
+}
