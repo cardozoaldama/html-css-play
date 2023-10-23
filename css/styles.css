@@ -24,3 +24,21 @@ img {
     font-size: 16px;
     text-align: justify;
 }
+
+.description-pro {
+    font-family: monospace;
+}
+
+.description-pro:hover {
+    border-style: dashed;
+    border-width: 1mm;
+    color: #c2c2c2;
+    cursor: pointer;
+    padding: 25px;
+}
+
+.description-pro:active {
+    background-color: #c2c2c2;
+    color: darkblue;
+    cursor: crosshair;
+}
