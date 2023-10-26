@@ -18,3 +18,10 @@ body {
 .main-header {
     text-align: center;
 }
+
+.main-nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
