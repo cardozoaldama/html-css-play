@@ -45,3 +45,12 @@ body {
     gap: 10px;
     width: 100%;
 }
+
+.main-nav ul li a:hover {
+    background-color: whitesmoke;
+    color: #000000dc;
+}
+
+.main-nav ul li a:active {
+    border: 2px solid hwb(0 0% 100%);
+}
