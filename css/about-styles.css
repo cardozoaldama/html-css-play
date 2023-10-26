@@ -1,1 +1,15 @@
 /* PUT STYLES HERE BUDDY! */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000dc;
+    color: rgb(245, 245, 245);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
+}
