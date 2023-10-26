@@ -25,3 +25,21 @@ body {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
+.main-nav ul li {
+    align-items: center;
+    background-color: #000000dc;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-nav ul li a {
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
