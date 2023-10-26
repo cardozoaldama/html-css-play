@@ -10,7 +10,10 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
     max-width: 800px;
     padding: 0;
 }
