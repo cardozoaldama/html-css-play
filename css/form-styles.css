@@ -1,0 +1,13 @@
+@layers one, two;
+
+@layer one {
+    body {
+        background-color: rgb(70, 162, 98);
+    }
+}
+
+@layer two {
+    body {
+        background-color: rgb(255, 219, 219);
+    }
+}
