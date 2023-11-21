@@ -1,3 +1,30 @@
+/*
+    The importance:
+    1. Transition values.
+    2. The !important one.
+    3. Animation.
+    4. Everything else.
+
+    The origin:
+    1. The web, which we have the control over with.
+    2. The user.
+    3. The browser.
+
+    Fun fact: The !important browser default is the winner, your website !important default is the looser.
+
+    The specificity:
+    1. Inline CSS.
+    2. The layer. It's new and it's useful to define explicity "layers" of styles.
+    3. ID selectors.
+    4. Class | Attribute | Pseudo-class selectors.
+    5. Type | Pseudo-elements selectors.
+    NOTE: *, +, >, ~, _, || doesn't affect in specificity.
+    NOTE 2: The number of hits on the highest-reached level matter.
+
+    The position:
+    
+*/
+
 /* Styling the body */
 body {
     /* We are going to use linear-gradient and combines with "background" property. */
