@@ -1,6 +1,14 @@
+/* Styling the body */
 body {
+    /* We are going to use linear-gradient and combines with "background" property. */
+    /* linear-gradient is a function. */
+    /* linear-gradient takes three arguments, one the degrees, two the color one, three the color two. */
     background: linear-gradient(145deg, #fff, #c2c2c2);
+    /* Using font-family for our whole page (body) and it's Segoe UI. If I have to... */
+    /* Use always your fall-back fonts! */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size is using relative unit like "em". */
+    /* Defines "em" relative for the parent content. */
     font-size: 1.1em;
 }
 
