@@ -96,3 +96,23 @@ p {
 /* We love you, Margin property! */
 
 /* END OF THE LINE FOR MARGIN */
+
+/* --- */
+/* GENERIC BOXES STYLES */
+div {
+    /* Text color. */
+    color: #fff;
+    /* Background color for the element. */
+    background-color: #5995da;
+    /* Bold means font weight. Awesome! */
+    font-weight: bold;
+    /* Our dear padding. 20px everywhere! */
+    padding: 20px;
+    /* Text align to the center. */
+    text-align: center;
+    /* 2px size of border, with solid style, and that color... */
+    border: 2px solid #5d6063;
+    /* BORDER RADIUS! Basically means its rounded 5px your border that prevents being too sharp. */
+    border-radius: 5px;
+    /* Divs are block-level default. Spans are inline-level. */
+}
