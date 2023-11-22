@@ -116,3 +116,16 @@ div {
     border-radius: 5px;
     /* Divs are block-level default. Spans are inline-level. */
 }
+
+/* -----.----- */
+
+/* We are gonna use the width and height. They are too useful. */
+/* That is what they called it "explicit dimensions" */
+div {
+    /* WIDTH */
+    /* The wide could be 250px */
+    width: 200px;
+    /* Use the HEIGHT too! */
+    /* The higher could be 500px */
+    height: 500px;
+}
