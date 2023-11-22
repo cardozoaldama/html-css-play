@@ -1,3 +1,16 @@
+/* GLOBAL RESET */
+/* A good practice to override the default browser behaviour. */
+/* Also, don't forget to add pseudo-elements. */
+*, *::after, *::before {
+    /* Everything would have: */
+    /* Border-box */
+    box-sizing: border-box;
+    /* Nobody wants margin! */
+    margin: 0;
+    /* Neither padding. */
+    padding: 0;
+}
+
 /* CSS BOX MODEL */
 /* 
     v - Meet the team! - v
