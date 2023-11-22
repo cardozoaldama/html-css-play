@@ -67,3 +67,32 @@ h1 {
 /* Borders are excellent for debugging your code... The boxes are fun! */
 
 /* END OF THE LINE FOR BORDER */
+
+/* --------------- */
+/* Meet the MARGIN... */
+p {
+    /* Spaces between p boxes with others. */
+    /* In this case, space in the bottom. */
+    margin-bottom: 50px;
+    /* Margin collapse vertically, while padding doesn't... */
+}
+
+/* Inline elements... ignore margin top and bottom... */
+strong {
+    /* This only affects left/right margin. */
+    margin: 50px;
+}
+
+/* Vertical Margin Collapse */
+p {
+    /* The biggest one is the winner! */
+    /* Here the collapse begins. */
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* To prevent vertical margin collapse use an invisible "div" between your elements. */
+/* Of course, Flexbox and Grid exists for some reason. XD */
+/* We love you, Margin property! */
+
+/* END OF THE LINE FOR MARGIN */
