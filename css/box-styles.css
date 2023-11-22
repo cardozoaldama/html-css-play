@@ -1,0 +1,11 @@
+/* BLOCKS */
+h1, p {
+    /* `background-color` is for background color. <3 */
+    background-color: #dde0e3;
+}
+
+/* INLINE */
+em, strong {
+    /* Those values for the `background-color` are using HEX form. */
+    background-color: #b2d6ff;
+}
