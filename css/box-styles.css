@@ -22,3 +22,32 @@ em, strong {
     /* This is the default property... */
     display: inline;
 }
+
+/* Meet the PADDING... */
+h1 {
+    /* Top, right, bottom, and left 50px of padding. */
+    padding: 50px;
+}
+
+/* You can also individually set top, right, bottom, and left, properties. */
+p {
+    /* Also, use different units! */
+    /* Using pixels... */
+    padding-top: 20px;
+    /* Using centimeters! */
+    padding-right: 5cm;
+    /* Using rem units. */
+    padding-bottom: 5rem;
+    /* Using em units. */
+    padding-left: 2em;
+    /* Also, use shorthands for that situation... */
+    padding: 20px 5cm 5rem 2em; /* TOP, RIGHT, BOTTOM, LEFT. */
+}
+
+/* Let's use another shorthand: */
+body p {
+    /* This is: TOP/BOTTOM and LEFT/RIGHT */
+    padding: 50px 60px;
+}
+
+/* END OF THE LINE FOR PADDING */
