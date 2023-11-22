@@ -9,7 +9,7 @@ em, strong {
     /* Those values for the `background-color` are using HEX form. */
     background-color: #b2d6ff;
     /* This is not a good idea, but you can turn their behaviour to `display: block;` */
-    display: block;
+    /* display: block; */
     /* This is the default property... */
-    /* display: inline; */
+    display: inline;
 }
