@@ -1,3 +1,12 @@
+/* CSS BOX MODEL */
+/* 
+    v - Meet the team! - v
+    1. The content: Any semantic value.
+    2. The padding: Between the content and the border.
+    3. The border: Between the padding and the margin.
+    4. The margin: Between its box and other boxes.
+*/
+
 /* BLOCKS */
 h1, p {
     /* `background-color` is for background color. <3 */
