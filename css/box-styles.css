@@ -129,3 +129,16 @@ div {
     /* The higher could be 500px */
     height: 500px;
 }
+
+/* [][][][][][]][]][][]][][]][][][][] */
+/* CONTENT BOXES vs BORDER BOXES */
+/* Everything has the property `box-sizing: content-box;` by default. That means, if you have our div before that one has 200px wide plus left/right padding of 80px in total, plus left/right border of 4px in total.*/
+/* The div before has 244px wide... */
+/* With the property `box-sizing: border-box;` means that you have 200px wide, 200px will be. The content automatically fit in its box. Easier way and useful. */
+div {
+    /* By default: */
+    /* box-sizing: content-box; */
+    /* BORDER BOX IN ACTION! */
+    box-sizing: border-box;
+    /* Now it has 200px width. */
+}
