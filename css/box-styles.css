@@ -142,3 +142,21 @@ div {
     box-sizing: border-box;
     /* Now it has 200px width. */
 }
+
+/* <-------------------------------> */
+/* ALIGNING BOXES! */
+/* You can align to center the inline boxes, but block boxes is another history. */
+body {
+    /* This doesn't work with block-level at all... */
+    /* Also, text-align doesn't like block-level elements. XD */
+    /* You need to use auto-margins, float, or flexbox. */
+    text-align: center;
+}
+
+/* Let's use auto-margins. Float and Flexbox could wait for their moment... */
+div {
+    /* It should be centered right now. */
+    /* Margin Auto it only works when you have an explicit width dimension, or else... you know... */
+    /* width: 200px; */
+    margin: auto;
+}
