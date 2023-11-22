@@ -51,3 +51,19 @@ body p {
 }
 
 /* END OF THE LINE FOR PADDING */
+
+/* --------------- */
+/* Meet the BORDER... */
+h1 {
+    /* The border is easy and fun! */
+    /* First value, is the size of your border. */
+    /* Second value, is the style of your border. */
+    /* Third value, is the color of your border. */
+    border: 1px solid #5d6063;
+    /* You could also add individually TOP, RIGHT, BOTTOM, and LEFT. */
+    /* In this case, the bottom... */
+    border-bottom: 2px dashed #b2d6ff;
+}
+/* Borders are excellent for debugging your code... The boxes are fun! */
+
+/* END OF THE LINE FOR BORDER */
