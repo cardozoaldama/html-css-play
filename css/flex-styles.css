@@ -1,0 +1,22 @@
+/* RESET STYLES! */
+
+/* Universal selector, with its pseudo-elements. */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* I don't want any padding and margin in my tests. */
+}
+
+/* Testing */
+.box {
+    /* Use only `background` property to add more style! */
+    /* I used the `linear-gradient` function value! */
+    /* This one (the gradient) takes two or more colors. */
+    background: linear-gradient(red, blue);
+    border: 2px solid burlywood;
+    height: 150px;
+    /* The padding affects 20px left/right, nothing in top/right. */
+    padding: 0 20px;
+    width: 250px;
+}
