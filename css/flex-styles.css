@@ -28,3 +28,36 @@
     padding: 0 20px;
     width: 250px;
 }
+
+/* Main container in action */
+.container {
+    background-color: #e94c4c;
+    /* We want some padding... */
+    padding: 20px;
+}
+
+/* Styling the nav and its contents... */
+.nav ul li {
+    /* Don't want any disc or dots... */
+    list-style-type: none;
+}
+/* Style those anchors! Make them like actually buttons */
+.nav ul li a {
+    /* Appropiate color for the background. */
+    color: rgb(250, 250, 250);
+    /* Totally random those colors. */
+    background-color: rgb(181, 63, 42);
+    /* The border isn't it curved at all. */
+    border-radius: 5px;
+    /* By default, a elements are inline-level */
+    display: block;
+    /* We need some spacing here... */
+    margin: 5px 0;
+    padding: 5px 20px;
+    /* We need to cut off that underline decoration. */
+    text-decoration: none;
+    /* For now, let's try with this `text-align` set to center. */
+    text-align: center;
+    /* This is an relative unit. Percentage. */
+    width: 30%;
+}
