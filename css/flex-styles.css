@@ -80,3 +80,14 @@
     /* When the user clicks on it. */
     border: 2px outset rgb(181, 63, 42);
 }
+
+/* Let's add some style to the logo image. */
+.image-logo {
+    /* Let's use some ALPHA style. Like, RGBA. */
+    background-color: rgba(155, 55, 35, 0.1);
+    /* Remember, the IMG is inline-level by default. */
+    display: block;
+    /* Set the height always in auto, unless your browser want to do whatever it wants. */
+    height: auto;
+    width: 100px;
+}
