@@ -141,3 +141,32 @@
     height: 300px;
     width: 100%;
 }
+
+/* Adding a return button to the top. */
+.arrow-return {
+    /* Some background and border radius, and box shadow of course. */
+    background-color:hsl(350, 39%, 47%);
+    border-radius: 50px;
+    /* You could add color in your box-shadow. */
+    box-shadow: 3px 3px rgb(139, 129, 112);
+    color: white;
+    display: block;
+    font-size: 5em;
+    /* Inside of our arrow-return (`a` element) it's like a text. */
+    /* Use `text-align: center`! */
+    text-align: center;
+    /* Remove that underline over there! */
+    text-decoration: none;
+    /* Let's use a small width over there. */
+    width: 5%;
+}
+
+/* Hover is my favorite pseudo-class. */
+.arrow-return:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Trying to make a button without reference. */
+.arrow-return:active {
+    box-shadow: -3px 3px rgb(139, 129, 112);
+}
