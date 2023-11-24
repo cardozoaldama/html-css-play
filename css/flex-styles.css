@@ -68,18 +68,25 @@ body {
 
 /* Main container in action */
 .container {
+    /* Alignment horizontally with align-items, once you got column flex... */
+    align-items: center;
+    /* Background below! */
     background-color: #e94c4c;
     /* Display: Flex. */
     /* Flexbox layout is enabled. */
     /* We could combine it with other layouts! */
     display: flex;
     /* Aligning items, all of them from here. */
+    /* Now we got attention with column! */
+    /* Our container should have this column in the first place. */
+    flex-direction: column;
     /* Now your container is wrapping... */
     flex-wrap: wrap;
     /* We want to center all our items. Use `justify-content`. */
     /* We got more values for the justify-content. Probably others use those values too! */
     /* flex-start, flex-end, center, space-between, space-around, and space-evenly */
     justify-content: center;
+    /* Once it's column our .container, justify-content aligns its items vertically. XD */
     /* ------ */
     /* We want some padding... */
     padding: 20px;
