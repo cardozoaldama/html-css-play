@@ -50,6 +50,10 @@ body {
     /* Flexbox layout is enabled. */
     /* We could combine it with other layouts! */
     display: flex;
+    /* Aligning items, all of them from here. */
+    /* We want to center all our items. Use `justify-content`. */
+    justify-content: center;
+    /* ------ */
     /* We want some padding... */
     padding: 20px;
 }
@@ -114,7 +118,8 @@ body {
 .content {
     background: linear-gradient(#e94c4c, rgb(181, 63, 42));
     /* When you don't have anything in your divs, you could use `width` anyway. */
-    width: 100%;
+    /* Also, let's use less width because it's too wide with the previous value. */
+    width: 30%;
 }
 
 /* Now, let's try to add some width and heigh to those boxes. */
