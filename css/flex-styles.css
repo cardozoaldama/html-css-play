@@ -6,6 +6,10 @@
 /* Float is good with magazine-style layout. */
 /* However, Flexbox is great with overall page structure. */
 
+/* Flexbox uses two types of boxes... */
+/* Flex-container: Determine the layout, most for the part. */
+/* Flex-item: Direct child of a flex-container... */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
