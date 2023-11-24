@@ -37,6 +37,13 @@
 /* But when you have `flex-direction: column;` you got left/right align-items and top/bottom justify-content. */
 /* Crazy, uh? */
 
+/* FLEX CONTAINER ORDER! */
+/* You got `flex-direction` property with two different values: */
+/* Row and Column... */
+/* You have in your toolbox automatically: */
+/* row-reverse, and column-reverse */
+/* Of course, it's purely presentational. Separate the content from the style. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
