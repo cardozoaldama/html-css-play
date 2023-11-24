@@ -87,6 +87,8 @@ body {
     /* Now we got attention with column! */
     /* Our container should have this column in the first place. */
     flex-direction: column;
+    /* This is new, but don't use it for now. */
+    /* flex-direction: column-reverse; */
     /* Now your container is wrapping... */
     flex-wrap: wrap;
     /* We want to center all our items. Use `justify-content`. */
