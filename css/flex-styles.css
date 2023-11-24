@@ -91,3 +91,10 @@
     height: auto;
     width: 100px;
 }
+
+/* Main content with its sections and articles... */
+.content {
+    background: linear-gradient(#e94c4c, rgb(181, 63, 42));
+    /* When you don't have anything in your divs, you could use `width` anyway. */
+    width: 100%;
+}
