@@ -52,6 +52,8 @@ body {
     display: flex;
     /* Aligning items, all of them from here. */
     /* We want to center all our items. Use `justify-content`. */
+    /* We got more values for the justify-content. Probably others use those values too! */
+    /* flex-start, flex-end, center, space-between, space-around, and space-evenly */
     justify-content: center;
     /* ------ */
     /* We want some padding... */
