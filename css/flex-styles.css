@@ -68,6 +68,18 @@ body {
     justify-content: space-between;
 }
 
+/* NAV */
+/* Our `ul` element must have display: flex; */
+.nav ul {
+    /* Our flex container. */
+    display: flex;
+    /* Let's try with space-aroun' */
+    justify-content: space-around;
+    /* Margin is normal in Flexbox as usual. */
+    /* However, auto-margins has special meaning in Flexbox. */
+    margin: 0 5px;
+}
+
 /* Styling the nav and its contents... */
 .nav ul li {
     /* Don't want any disc or dots... */
