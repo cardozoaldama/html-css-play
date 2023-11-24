@@ -99,3 +99,32 @@
     width: 100%;
 }
 
+/* Now, let's try to add some width and heigh to those boxes. */
+.box-content {
+    height: 350px;
+    width: 100%;
+}
+
+.box-content1 {
+    background-color: hsl(350, 47%, 41%);
+}
+
+.box-content2 {
+    background-color: hsl(350, 39%, 47%);
+}
+
+.box-content3 {
+    background-color: rebeccapurple;
+}
+
+.box-content4 {
+    background-color: #af5719;
+}
+
+.box-content5 {
+    background-color: antiquewhite;
+}
+
+.box-content6 {
+    background-color: rgb(139, 129, 112);
+}
