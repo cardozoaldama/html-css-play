@@ -128,3 +128,16 @@
 .box-content6 {
     background-color: rgb(139, 129, 112);
 }
+
+/* Now, the footer. */
+.footer {
+    /* Let's put some margin between boxes! */
+    margin: 20px 0;
+}
+
+.box-footer {
+    /* Let's add some width and height. */
+    background-color: rgb(84, 46, 60);
+    height: 300px;
+    width: 100%;
+}
