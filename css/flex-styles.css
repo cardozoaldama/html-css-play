@@ -68,6 +68,8 @@ body {
 
 /* HEADER */
 .header {
+    /* Use `align-items` set to center. */
+    align-items: center;
     /* Let's try to use flex container here. */
     display: flex;
     /* Distribute the items around the flex container. */
