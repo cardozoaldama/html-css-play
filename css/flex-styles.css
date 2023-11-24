@@ -16,6 +16,12 @@
     /* I don't want any padding and margin in my tests. */
 }
 
+/* Using our body for fonts! */
+body {
+    /* Roboto fonts. */
+    font-family: Roboto, sans-serif;
+}
+
 /* Testing */
 .box {
     /* Use only `background` property to add more style! */
