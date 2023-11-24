@@ -60,6 +60,14 @@ body {
     padding: 20px;
 }
 
+/* HEADER */
+.header {
+    /* Let's try to use flex container here. */
+    display: flex;
+    /* Distribute the items around the flex container. */
+    justify-content: space-between;
+}
+
 /* Styling the nav and its contents... */
 .nav ul li {
     /* Don't want any disc or dots... */
