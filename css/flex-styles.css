@@ -20,6 +20,10 @@
 /* Flex-container has the align-items property by itself. */
 /* You have: flex-start, flex-end, center, baseline, and stretch. */
 
+/* WRAPPING YOUR FLEX ITEMS! */
+/* By default, Flexbox doesn't wrap your items. You can change it if you want to. */
+/* We need to use `flex-wrap: wrap;` for this moment... */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
@@ -57,6 +61,8 @@ body {
     /* We could combine it with other layouts! */
     display: flex;
     /* Aligning items, all of them from here. */
+    /* Now your container is wrapping... */
+    flex-wrap: wrap;
     /* We want to center all our items. Use `justify-content`. */
     /* We got more values for the justify-content. Probably others use those values too! */
     /* flex-start, flex-end, center, space-between, space-around, and space-evenly */
@@ -81,6 +87,7 @@ body {
 .nav ul {
     /* Our flex container. */
     display: flex;
+    flex-wrap: wrap;
     /* Let's try with space-aroun' */
     justify-content: space-around;
     /* Margin is normal in Flexbox as usual. */
