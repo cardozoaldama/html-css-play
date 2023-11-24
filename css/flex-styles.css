@@ -24,6 +24,19 @@
 /* By default, Flexbox doesn't wrap your items. You can change it if you want to. */
 /* We need to use `flex-wrap: wrap;` for this moment... */
 
+/* FLEX CONTAINER DIRECTION! */
+/* Yeah, not only horizontal is king, also vertical is queen. */
+/* NOTE: Flexbox only knows one thing at time, or use vertical or use horizontal. No both. */
+/* By default, Flexbox has this property: `flex-direction: row;`. */
+/* You could change the "basis" to `flex-direction: column;`. */
+/* Float could do better? Nope. It loves horizontally things and old-time stuff... */
+/* Responsive web design also like this. Using one line of CSS to making horizontally or vertically layouts. */
+
+/* Alignment considerations: */
+/* When you have `flex-direction: row;` you got left/right justify-content and top/bottom align-items. */
+/* But when you have `flex-direction: column;` you got left/right align-items and top/bottom justify-content. */
+/* Crazy, uh? */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
