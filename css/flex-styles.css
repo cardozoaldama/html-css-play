@@ -14,6 +14,12 @@
 /* NOTE: Learning about CSS Box Model is required. It's important to note that. */
 /* Display property has a `flex` container. It's kinda block-level. */
 
+/* CROSS-AXIS Vertical alignment. */
+/* Float... you don't have a correct vertical alignment... */
+/* Flex-items could be align with `align-items` property. */
+/* Flex-container has the align-items property by itself. */
+/* You have: flex-start, flex-end, center, baseline, and stretch. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
