@@ -10,6 +10,10 @@
 /* Flex-container: Determine the layout, most for the part. */
 /* Flex-item: Direct child of a flex-container... */
 
+/* FLEX CONTAINERS */
+/* NOTE: Learning about CSS Box Model is required. It's important to note that. */
+/* Display property has a `flex` container. It's kinda block-level. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
@@ -42,6 +46,10 @@ body {
 /* Main container in action */
 .container {
     background-color: #e94c4c;
+    /* Display: Flex. */
+    /* Flexbox layout is enabled. */
+    /* We could combine it with other layouts! */
+    display: flex;
     /* We want some padding... */
     padding: 20px;
 }
