@@ -247,6 +247,8 @@ body {
     align-self: flex-end;
     /* Let's put some margin between boxes! */
     margin: 20px 0;
+    /* Adding more width, please. */
+    width: 100%;
 }
 
 .box-footer {
@@ -257,7 +259,7 @@ body {
 }
 
 /* Adding a return button to the top. */
-.arrow-return {
+.button-footer {
     /* Some background and border radius, and box shadow of course. */
     background-color:hsl(350, 39%, 47%);
     border-radius: 50px;
@@ -265,22 +267,23 @@ body {
     box-shadow: 3px 3px rgb(139, 129, 112);
     color: white;
     display: block;
-    font-size: 5em;
+    font-size: 3em;
     /* Inside of our arrow-return (`a` element) it's like a text. */
     /* Use `text-align: center`! */
     text-align: center;
     /* Remove that underline over there! */
     text-decoration: none;
     /* Let's use a small width over there. */
-    width: 5%;
+    width: 10%;
 }
 
 /* Hover is my favorite pseudo-class. */
-.arrow-return:hover {
+.button-footer:hover {
     color: rgb(0, 0, 0);
+    background-color: hsl(350, 44%, 81%);
 }
 
 /* Trying to make a button without reference. */
-.arrow-return:active {
+.button-footer:active {
     box-shadow: -3px 3px rgb(139, 129, 112);
 }
