@@ -318,7 +318,7 @@ body {
     /* Remove that underline over there! */
     text-decoration: none;
     /* Let's use a small width over there. */
-    width: 10%;
+    width: 150px;
 }
 
 /* Hover is my favorite pseudo-class. */
