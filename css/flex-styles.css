@@ -235,6 +235,7 @@ body {
     width: 100%;
 }
 
+/* Each box will content different background-color. */
 .box-content1 {
     background-color: hsl(350, 47%, 41%);
 }
@@ -251,6 +252,7 @@ body {
     background-color: #af5719;
 }
 
+/* Except you... you will have some different colors... */
 .box-content5 {
     color: black;
     background-color: antiquewhite;
@@ -259,6 +261,7 @@ body {
 .box-content6 {
     background-color: rgb(139, 129, 112);
 }
+/* END OF BOX-CONTENT STYLE. */
 
 /* Now, the footer. */
 .footer {
