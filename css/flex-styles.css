@@ -51,6 +51,12 @@
 /* Order is special, you could move items without affecting the layout in the parent. */
 /* By default, `order` value is set to 0... */
 
+/* FLEX ITEM ALIGNMENT */
+/* Using the property `align-self` overrides the `align-items` from the parent container. */
+/* With that property I mentioned before (`align-self`) you could move individually items vertically. */
+/* The values you could use are those: */
+/* center, flex-start, flex-end, stretch, baseline. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
