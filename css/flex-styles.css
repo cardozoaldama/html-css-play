@@ -260,9 +260,24 @@ body {
 }
 
 .box-footer {
+    /* Remember that align-items are set to center. */
+    align-items: center;
+    /* Let's flex you! */
+    display: flex;
+    /* The "gap" is useful, and modern browsers support it. */
+    gap: 25px;
     /* Let's add some width and height. */
     height: 300px;
+    /* Justify content in action! */
+    justify-content: center;
     width: 30%;
+}
+
+/* Suppose we want this rule to stretch twice... Use `flex` property value set to "2". */
+.box-footer--large {
+    /* Let's use the `flex` property! */
+    /* This is a shorthand. It contains "flex-basis", "flex-shrink", and "flex-grow". */
+    flex: 2;
 }
 
 /* Adding a return button to the top. */
