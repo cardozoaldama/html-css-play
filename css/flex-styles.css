@@ -236,6 +236,8 @@ body {
 
 /* Now, the footer. */
 .footer {
+    /* Let's use `align-self` here! */
+    align-self: flex-end;
     /* Let's put some margin between boxes! */
     margin: 20px 0;
 }
