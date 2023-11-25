@@ -125,10 +125,21 @@ body {
 .header {
     /* Use `align-items` set to center. */
     align-items: center;
+    /* Customize the background-color: */
+    background-color: #af5719;
+    /* And border-radius is incoming! */
+    border-radius: 5px;
     /* Let's try to use flex container here. */
     display: flex;
+    /* Let's try using flex-wrap value set to wrap. */
+    flex-wrap: wrap;
     /* Distribute the items around the flex container. */
     justify-content: space-between;
+    /* Use padding for more space. */
+    /* The padding is more or less space between your content and border. */
+    padding: 5px;
+    /* Please, take this medkit... */
+    width: 97%;
 }
 
 /* NAV */
@@ -138,10 +149,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     /* Let's try with space-aroun' */
-    justify-content: space-around;
+    /* We don't need it. The container is small enough. */
+    /* justify-content: space-around; */
+    /* Use gap instead of Margin... */
+    gap: 25px;
     /* Margin is normal in Flexbox as usual. */
     /* However, auto-margins has special meaning in Flexbox. */
-    margin: 0 5px;
+    /* margin: 0 5px; */
 }
 
 /* Styling the nav and its contents... */
@@ -163,15 +177,19 @@ body {
     box-shadow: 2px 2px rgb(155, 55, 35);
     /* By default, a elements are inline-level */
     display: block;
+    /* Font-size is required here. */
+    font-size: 1.5em;
     /* We need some spacing here... */
     margin: 5px 0;
-    padding: 5px 20px;
+    /* And the padding has been changed. */
+    padding: 10px 15px;
     /* We need to cut off that underline decoration. */
     text-decoration: none;
     /* For now, let's try with this `text-align` set to center. */
     text-align: center;
     /* This is an relative unit. Percentage. */
-    width: 30%;
+    /* We don't need the WIDTH. */
+    /* width: 30%; */
 }
 
 .nav ul li a:hover {
@@ -197,7 +215,8 @@ body {
     display: block;
     /* Set the height always in auto, unless your browser want to do whatever it wants. */
     height: auto;
-    width: 100px;
+    /* I want to make the logo more wider! */
+    width: 250px;
 }
 
 /* Main content with its sections and articles... */
