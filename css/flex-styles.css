@@ -243,8 +243,16 @@ body {
 
 /* Now, the footer. */
 .footer {
+    /* align-items is different than align-self. */
+    align-items: center;
     /* Let's use `align-self` here! */
     align-self: flex-end;
+    /* You should have this background-color, pal. */
+    background-color: rgb(84, 46, 60);
+    /* Use the display set to flex here. */
+    display: flex;
+    /* Justify content uses the main-axis for its purposes. */
+    justify-content: space-around;
     /* Let's put some margin between boxes! */
     margin: 20px 0;
     /* Adding more width, please. */
@@ -253,9 +261,8 @@ body {
 
 .box-footer {
     /* Let's add some width and height. */
-    background-color: rgb(84, 46, 60);
     height: 300px;
-    width: 100%;
+    width: 30%;
 }
 
 /* Adding a return button to the top. */
