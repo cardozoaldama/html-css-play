@@ -57,6 +57,13 @@
 /* The values you could use are those: */
 /* center, flex-start, flex-end, stretch, baseline. */
 
+/* FLEXIBLE ITEMS */
+/* By default, the fixed width of "flexible" boxes are content-based. Now, let's try to do more "flex" than before. */
+/* The property `flex` defines the width of individual items in a flex container. Allow them to have flexible widths. */
+/* It tells how to distribute each individual flex-item in their container. */
+/* By default, the value of `flex` is "1". */
+/* You can add more width twice as the default value, for example set `flex` value to "2". */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
