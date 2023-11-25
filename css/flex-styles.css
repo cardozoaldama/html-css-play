@@ -44,6 +44,13 @@
 /* row-reverse, and column-reverse */
 /* Of course, it's purely presentational. Separate the content from the style. */
 
+/* FLEX ITEM ORDER */
+/* You could move each individual flex-item instead from the flex-container. */
+/* `flex-direction` for example moves whole container with its flex-items. */
+/* `order` however moves only an individual flex-item as you like. */
+/* Order is special, you could move items without affecting the layout in the parent. */
+/* By default, `order` value is set to 0... */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
