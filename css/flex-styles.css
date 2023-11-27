@@ -295,7 +295,8 @@ body {
     /* The "gap" is useful, and modern browsers support it. */
     gap: 25px;
     /* Let's add some width and height. */
-    height: 300px;
+    /* Let's drop away that height. */
+    /* height: 300px; */
     /* Justify content in action! */
     justify-content: center;
     /* It's the width... */
