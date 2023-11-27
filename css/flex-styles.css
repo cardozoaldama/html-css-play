@@ -315,6 +315,7 @@ body {
     /* You could add color in your box-shadow. */
     box-shadow: 3px 3px rgb(139, 129, 112);
     color: white;
+    /* Remember that the anchor element is inline-level by default... */
     display: block;
     font-size: 3em;
     /* Inside of our arrow-return (`a` element) it's like a text. */
