@@ -64,6 +64,10 @@
 /* By default, the value of `flex` is "1". */
 /* You can add more width twice as the default value, for example set `flex` value to "2". */
 
+/* STATIC ITEMS WIDTHS */
+/* We can mix fixed-widths boxes in complex ways. Use `initial` value for the `flex` property. */
+/* This is a pretty common layout using fixed-widths in a flex-item. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
@@ -302,9 +306,13 @@ body {
 .box-footer--large {
     /* Let's use the `flex` property! */
     /* This is a shorthand. It contains "flex-basis", "flex-shrink", and "flex-grow". */
-    flex: 2;
+    /* flex: 2; */
+    /* The the `flex` property, with its value set to `initial`. */
+    flex: initial;
     /* And add some padding... */
     padding: 25px;
+    /* With a width. */
+    width: 200px;
 }
 
 /* Adding a return button to the top. */
