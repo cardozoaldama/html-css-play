@@ -68,6 +68,11 @@
 /* We can mix fixed-widths boxes in complex ways. Use `initial` value for the `flex` property. */
 /* This is a pretty common layout using fixed-widths in a flex-item. */
 
+/* AUTO-MARGINS IN FLEX! */
+/* Auto-margins are special in flexbox. They are a kind of divider for flex-items. */
+/* Auto-margins eat all the extra space of a flex-container and you don't need extra `div` for that purpose. */
+/* I will try to show an example later on. */
+
 /* RESET STYLES! */
 
 /* Universal selector, with its pseudo-elements. */
