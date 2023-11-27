@@ -351,3 +351,80 @@ body {
 .button-footer:active {
     box-shadow: -3px 3px rgb(139, 129, 112);
 }
+
+/* ASIDE MOMENT! */
+/* Aside container: */
+.aside {
+    /* And, of course, `align-items`... */
+    align-items: flex-end;
+    /* Background color is important to notice that we need it... */
+    background-color: #af5719;
+    /* Display... Flex! */
+    display: flex;
+    /* We need to change that direction to column, the main-axis now is "column"... */
+    flex-direction: column;
+    /* Wrapping the content for some reason. */
+    flex-wrap: wrap;
+    /* Let's align the content with `justify-content`. */
+    /* You don't need this property below me, because magic margin does the job for me. */
+    /* justify-content: space-evenly; */
+    /* Try it with gap: */
+    gap: 10px;
+    /* Let's add some extra height here. */
+    height: 350px;
+    /* Trying to use margin, but not the magic friendly flexible auto-margin, not just yet... */
+    margin-top: 20px;
+    /* Let's use some padding here, just because! */
+    padding: 25px;
+    /* Trying using a width here too! 100% made by width. */
+    width: 50%;
+}
+
+/* Let's make more flexbox here with .aside div content! */
+.aside div {
+    /* Center to center. */
+    align-items: center;
+    /* This background is new. */
+    background-color: #701f1f;
+    /* A custom border without reason... */
+    border: 3px solid #fffaaa;
+    /* Color white, white! */
+    color: #fff;
+    /* Flex, flex, flex! */
+    display: flex;
+    /* Let's make the text more readable. */
+    font-weight: bold;
+    /* Trying using flex-basis, flex-grow, and flex-shrink. */
+    /* Better not... */
+    /* flex-basis: 100%; */
+    /* Center to center! */
+    justify-content: center;
+    /* Always use gap, now. */
+    gap: 5px;
+}
+
+.aside div:hover {
+    background-color: #901f1f;
+    cursor: pointer;
+}
+
+.aside div:active {
+    background-color: #fff;
+    color: #701f1f;
+}
+
+/* Select .aside only direct children. */
+.aside > * {
+    /* Size of these boxes are fixed with absolute units. */
+    /* Some height: */
+    height: 50px;
+    /* Some width here: */
+    width: 250px;
+}
+
+/* Let's try to use our magical auto-margin in one of the flex-items: */
+/* The unknown date... */
+.date {
+    /* It will eat all of its space from top of it. Very cool, huh? */
+    margin-top: auto;
+}
