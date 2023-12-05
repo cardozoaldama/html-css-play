@@ -3,4 +3,4 @@ The repository is only for testing basic stuff and playful time with the basics 
 
 ## Unverified...
 
-People, do not delete your SSH keys without reason. XD
+People, do not delete your SSH keys without any reason. XD
